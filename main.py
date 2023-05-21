@@ -182,7 +182,7 @@ def main():
                 red_health -= 1
             if event.type == YELLOW_HIT:
                 yellow_health -= 1
-            winner_text = ""
+        winner_text = ""
         if yellow_health == 0:
             winner_text = "Red Wins!"
         if red_health == 0:
